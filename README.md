@@ -35,3 +35,13 @@
          git remote -v
 * github에 올리기
          git push origin master
+-------------------------------------------------------
+## 수정하여 다시 업로드 할 때
+1. 기존의 코드를 다운받는 행위를 해야한다
+         
+         git pull origin master
+
+2. 다시 push 해야한다
+         
+         git push origin master
+         

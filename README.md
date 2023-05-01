@@ -29,3 +29,9 @@
          git add .
 * 히스토리 만들기(-m은 메시지를 의미함, "" 안에는 히스토리 이름을 적음)
          git commit -m "first commit"
+* github의 repository를 만들고 그 주소와 연결하기
+         git remote add origin https://github.com/3dodam/CssFlex.git
+* 연결이 잘 되었는지 확인하기 (사용 안 해도 됨)
+         git remote -v
+* github에 올리기
+         git push origin master

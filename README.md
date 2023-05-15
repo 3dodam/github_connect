@@ -63,9 +63,7 @@
 
 1. 소스코드를 다운로드
 
-
       git clone 주소
-      
       git clone https://github.com/3dodam/hanacard.git
       
 2. 브랜치(branch) 만들기

@@ -69,18 +69,20 @@
 
 2. 브랜치(branch) 만들기
 
-           git checkout -b "jang"
+         git checkouy -b 브랜치이름
+         git checkout -b "jang"
       
 3. 원 파일로 내려가 체크아웃
 
-           cd hanacard
-           git checkout -b jang
+         cd hanacard
+         git checkout -b jang
       
 4. 파일 add 및 commit
 
-          git add .
-          git commit -m "history"
+         git add .
+         git commit -m "history"
       
 5. 다시 push (이때 master를 사용하면 안됨)
 
-           git push origin jang
+         git push origin 브랜치이름
+         git push origin jang

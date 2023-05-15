@@ -69,11 +69,6 @@
 
 2. 브랜치(branch) 만들기
 
-         git checkouy -b 브랜치이름
-         git checkout -b "jang"
-      
-3. 원 파일로 내려가 체크아웃
-
          cd hanacard
          git checkout -b jang
       

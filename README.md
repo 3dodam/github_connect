@@ -56,4 +56,27 @@
 2. 다시 push 해야한다
          
          git push origin master
-         
+                
+
+------------------------------------------------------
+# Github 협업하는 방법
+
+1. 소스코드를 다운로드
+
+      git clone 주소
+      
+      git clone https://github.com/3dodam/hanacard.git
+      
+2. 브랜치(branch) 만들기
+      git checkout -b "jang"
+      
+3. 원 파일로 내려가 체크아웃
+      cd hanacard
+      git checkout -b jang
+      
+4. 파일 add 및 commit
+      git add .
+      git commit -m "history"
+      
+5. 다시 push (이때 master를 사용하면 안됨)
+      git push origin jang

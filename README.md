@@ -74,7 +74,7 @@
 3. 원 파일로 내려가 체크아웃
 
            cd hanacard
-            git checkout -b jang
+           git checkout -b jang
       
 4. 파일 add 및 commit
 

@@ -66,7 +66,9 @@
       git clone 주소
       git clone https://github.com/3dodam/hanacard.git
       
+      
 2. 브랜치(branch) 만들기
+
            git checkout -b "jang"
       
 3. 원 파일로 내려가 체크아웃

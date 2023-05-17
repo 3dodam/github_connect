@@ -81,3 +81,7 @@
 
          git push origin 브랜치이름
          git push origin jang
+
+6. 다시 branch를 마스터로 바꾸는 법
+
+      checkout master

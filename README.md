@@ -17,7 +17,7 @@
 * 유저 이름 설정하기
          git config --global user.name "3dodam"
 * 유저 이메일 설정하기 (반드시 github에 가입했던 이메일 주소와 동일해야한다)
-         git config --global user.email "vesper1024@gmail.com"
+         git config --global user.email vesper1024@gmail.com
 * 내 정보 확인하기
          git config --list
          
@@ -84,4 +84,23 @@
 
 6. 다시 branch를 마스터로 바꾸는 법
 
-      checkout master
+         checkout master
+
+
+---------------------------------------------------------
+# 오답노트
+
+1. origin/master 과 origin의 차이
+
+         origin/master은 원격 저장소 Branch
+         master은 로컬 저장소 Branch
+       
+2. 깃 설치 후 계정 연결
+         
+         git config --global user.name "3dodam"
+         git config --global user.email vesper1024@gmail.com
+         email을 쓸 때에는 따옴표가 없어야 한다. (따옴표를 썼기에 이메일 연동이 안됨)
+         
+3. merge 하는 법
+
+         
